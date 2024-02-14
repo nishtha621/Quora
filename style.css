@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter";
+}
+header{
+    display: flex;
+    left:0;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    background: #fff;
+    
+    width: 100vw;
+    overflow: hidden;
+    position:fixed;
+   
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgba(86, 86, 86, 0.295);
+}
+header .logo img{
+    padding: 10px;
+    height: 45px;
+}
+.link{
+    margin-left: 70px;
+    display: flex;
+    overflow: hidden;
+    
+    gap: 10px;
+    margin-top:5px;
+}
+.link i{
+    font-size: 30px;
+    margin: 10px;
+}
+.link i:hover{
+    color: rgba(152, 9, 9, 0.877);
+    text-decoration-line: underline;
+}
+.btn{
+    border-radius:40px;
+    margin: 10px;
+    height: 30px;
+    font-size: 12px;
+}
+.user{
+    margin: 10px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #65646485;
+}
+.user img{
+    border-radius: 50%;
+height: 35px;
+width: 34px;
+}
+.try{
+    margin: 10px;
+}
+.try button{
+    height: 25px;
+    width: 100px;
+    border:1px solid #9e9e9ea4;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.link1 button{
+    margin: 2px;
+    font-size: 30px;
+    border: 0px;
+    background-color: #fff;
+}
+.link1 svg{
+    height: 20px;
+}
+.d-flex input{
+    height: 30px;
+}
+.main{
+    display:flex;
+    overflow: hidden;
+    padding-top: 15px;
+    top: 45px;
+    position: relative;
+    height:max-content;
+    width: 100vw;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+}
+.interests{
+    height: 100vh;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    width: 155px;
+    color: #4b4a4ade;
+}
+.interests ul li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    padding: 10px;
+}
+.interests ul li img{
+    height: 30px;
+}
+.interests ul li p{
+    margin-left: 5px;
+}
+.posts{
+    background-color: #eee;
+    display: block;
+    position:relative;
+    height: 810px;
+    margin: 13px;
+    right: 40px;
+    left:40px;
+    width: 550px;
+}
+.window{
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.window button{
+    height: 40px;
+    padding: 5px;
+    width: 450px;
+    margin: 10px;
+    margin-top: 12px;
+    background-color: #eeeeee9c;
+    text-align: left;
+    border: 1px solid #b8b5b5ab;
+    border-radius: 30px;
+    
+}
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(101, 105, 105);
+}
+.second:hover{
+    cursor: pointer;
+}
+.second span i{
+    height: 10px;
+    margin: 4px;
+}
+.window button p{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #615c5ce4;
+    font-size: 13px;
+}
+.ads{
+    height: 100vh;
+    position: sticky;
+    width: 350px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.ads img{
+    height: 500px;
+}
+.post1{
+    /* width: 500px; */
+    height: 900px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial;
+    padding: 20px;
+    color: #4b4a4a;
+}
+.post1 .content h3{
+ font-size: 15px;
+ color:black;
+ font-family:Arial;
+ font-weight: 600;
+}
+.post1 .content img{
+    align-self: center;
+    height: 300px;
+    width: 100%;
+}
+.user1{
+    font-size: 15px;
+    display: flex;
+}
+.user1 img{
+    border-radius: 50%;
+    height: 40px;
+}
+.user1 h4{
+    font-size: 15px;
+color: rgba(0, 0, 0, 0.854);
+}
+.user1 ul{
+    padding: 0;
+    margin-left: 10px;
+}
+.user1 ul li{
+    font-size: 15px;
+    list-style: none;
+}
